@@ -1,0 +1,97 @@
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.6rem;
+    line-height: 2;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+h1, 
+h2, 
+h3 {
+    font-family: 'Playfair Display', serif;
+    margin: 2rem 0;
+}
+
+ul {
+    list-style-type: none;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+.main {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+}
+
+.leftSection {
+    background-color: #5DADE2;
+    color: white;
+    grid-column: 1 / span 3;
+}
+
+.leftSection__h {
+    background-color: white;
+    border-top-right-radius: 3rem;
+    border-bottom-right-radius: 3rem;
+    color: #5DADE2;
+    font-size: 3rem;
+    margin-right: 2.5rem;
+    padding: .1rem;
+    text-align: center;
+}
+
+.personalInformation__span {
+    background-color: white;
+    border-top-right-radius: 1.5rem;
+    border-bottom-right-radius: 1.5rem;
+    color: #5DADE2;
+    display: inline-block;
+    font-weight: 900;
+    margin-bottom: 1.5rem;
+    padding: .1rem;
+    text-align: center;
+    width: 12rem;
+}
+
+.rightSection {
+    color: #5DADE2;
+    grid-column: 4 / span 7;
+}
+
+.rightSection__h {
+    font-size: 7.5rem;
+    font-weight: 900;
+    text-align: center;
+}
+
+.rightSection__h--black {
+    color: #000;
+}
+
+.experience__h {
+    background-color: #5DADE2;
+    border-top-left-radius: 3rem;
+    border-bottom-left-radius: 3rem;
+    color: white;
+    font-size: 3rem;
+    margin-left: 30rem;
+    padding: .1rem;
+    text-align: center;
+}
+
+.experience__ul {
+    font-size: 1.35rem;
+    text-align: justify;
+}
